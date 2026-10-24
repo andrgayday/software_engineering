@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Тональность текста</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body><main>
+<header><p class="eyebrow">Учебный проект · машинное обучение</p><h1>Какая эмоция в тексте?</h1><p>Оцените тональность короткого русского текста с помощью готовой нейросети RuBERT-tiny.</p></header>
+<form id="analysis"><label for="text">Ваш текст</label><textarea id="text" name="text" rows="6" maxlength="5000" required placeholder="Например: Мне очень понравилось, всё отлично!"></textarea>
+<div class="controls"><span>Модель: RuBERT-tiny</span><button type="submit">Оценить тональность</button></div></form>
+<p id="status" role="status" aria-live="polite"></p><section id="results" aria-live="polite" aria-label="Результаты анализа"></section>
+<aside><strong>Как читать результат</strong><p>Готовая модель различает положительную, нейтральную и отрицательную тональность.</p><p>Сарказм, отрицания и смешанные эмоции могут приводить к ошибкам. Длинный текст обрезается: до лимита токенизатора модели.</p></aside>
+<footer><a href="/docs">Документация API</a><span>Текст обрабатывается локально; приложение не сохраняет историю запросов.</span></footer>
+</main></body></html>

@@ -1,0 +1,184 @@
+{
+  "model": "cointegrated/rubert-tiny-sentiment-balanced",
+  "revision": "e0679dd4460e48648f5d4d819ae0f505384f5a9d",
+  "dataset": "examples.csv",
+  "dataset_sha256": "66b72195e5812a766155daf043477049f093fad670cd6f6f8d4f4bf425098859",
+  "sample_size": 30,
+  "limitation": "Небольшой набор примеров составлен вручную для демонстрации. Метрики не являются оценкой качества на реальных пользовательских данных.",
+  "accuracy": 0.9333333333333333,
+  "macro_f1": 0.9312169312169312,
+  "confusion_matrix": [
+    [
+      8,
+      1,
+      1
+    ],
+    [
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      10
+    ]
+  ],
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "examples": [
+    {
+      "text": "Мне очень понравилось, всё отлично!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Спасибо за прекрасную работу!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Я счастлив и очень доволен результатом.",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Замечательный фильм, рекомендую всем!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Сервис просто великолепный.",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Какой чудесный день!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Заказ пришёл быстро, качество отличное.",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Обожаю эту музыку!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Очень вкусный обед, спасибо повару.",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Вы лучшие, большое спасибо!",
+      "label": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Мне совсем не понравилось, ужасно.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Это отвратительная работа.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Я разочарован и очень расстроен.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Худший фильм, который я видел.",
+      "label": "negative",
+      "predicted": "positive"
+    },
+    {
+      "text": "Сервис ужасный, больше не обращусь.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Какой кошмарный день!",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Заказ сломан, деньги потрачены зря.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Ненавижу эту музыку.",
+      "label": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Невкусный обед, всё испорчено.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Очень плохо, я недоволен.",
+      "label": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Встреча состоится в понедельник.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Сегодня двадцать третье октября.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Документ содержит три страницы.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Магазин находится на первом этаже.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Расписание опубликовано на сайте.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Посылка находится в пункте выдачи.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Я читаю текст на экране.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "В комнате стоит стол.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Урок начинается в девять часов.",
+      "label": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "На улице идёт дождь.",
+      "label": "neutral",
+      "predicted": "neutral"
+    }
+  ]
+}
